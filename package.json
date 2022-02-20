@@ -1,0 +1,31 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "test": "jest --watchAll --detectOpenHandles --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.2",
+    "uid2": "^1.0.0",
+    "winston": "^3.6.0",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
