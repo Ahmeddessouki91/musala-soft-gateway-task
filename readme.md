@@ -76,3 +76,15 @@ This will launch the Node server on port 3000. If that port is busy, you can set
 ├── README.md
 └── ...
 ```
+
+# API endpoints:
+
+| REQUEST | URL                       | Description                     |
+| ------- | ------------------------- | ------------------------------- |
+| GET     | /api/gateways             | Get all gateways                |
+| POST    | /api/gateways             | Create new gateway              |
+| GET     | /api/gateways/:id         | Get gateway by id               |
+| PUT     | /api/gateways/:id         | Update exist gateway            |
+| DELETE  | /api/gateways/:id         | Delete exist gateway            |
+| POST    | /api/gateways/:id/devices | Add new device to exist gateway |
+| DELETE  | /api/gateways/devices/:id | Delete exist device             |
